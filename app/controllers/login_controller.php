@@ -14,6 +14,7 @@ if(isset($_POST['login'])){
 	
 	$sql = "select * from users where user_name='$username' and user_password='$password'";
 	 $result = mysqli_query($con, $sql);
+	 
 
 	}
 }
