@@ -7,5 +7,8 @@ $user_id = $_SESSION['id'];
 $sqlmangerid = "select manager_id from managers where user_id=$user_id";
 $result = mysqli_query($con,$sqlmanagerid);
 $row = mysqli_fetch_assoc($result);
+$sqlmanagerName ="Select user_name from users where user_id=".$row['manger_id'];
+
+
 
 
