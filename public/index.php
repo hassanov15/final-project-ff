@@ -1,5 +1,5 @@
 <?php
-require_once '../app/views/headers/header.php';
+require_once '../app/views/templates/header.php';
 
 if(isset($_SESSION['user'])){
 
@@ -15,4 +15,4 @@ if(isset($_SESSION['user'])){
 }
 
 
-require_once '../app/views/footers/footer.php';
+require_once '../app/views/templates/footer.php';
