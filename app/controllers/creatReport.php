@@ -5,7 +5,7 @@ $condition = "";
 include 'connect.php';
 $tbody = "";
 $manager_id = $_SESSION['id'];
-$getUserID = "select user_id from managers where manager_id=$manager_id";
+$getUserID = "select user_id from managers where managerId=$manager_id";
 $resultUserID = mysqli_query($con,$getUserID);
 if(mysqli_num_rows($resultUserID) > 0){
     $i = 1;
