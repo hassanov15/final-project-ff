@@ -5,7 +5,7 @@ include 'connect.php';
     if($_SESSION['user'] == "staff"){
 
 
-$this->veiws()
+$this->veiws('admin.php')
 
 $q =$_REQUEST["q"];
 $options ="";
