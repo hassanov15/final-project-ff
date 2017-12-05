@@ -6,7 +6,7 @@ if(isset($_SESSION['user'])){
     if($_SESSION['user'] == "staff"){
         require_once '../app/views/home/staff.php';
     }else if($_SESSION['user'] == "manager"){
-        require_once '../app/views/home/manager.php';
+        require_once '../app/views/home/admin.php';
     }else{
         require_once '../app/views/home/admin.php';
     }
